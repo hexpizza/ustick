@@ -192,16 +192,18 @@ def main():
     find = arguments['--find']
     remove = arguments['--remove-all']
     try:
-        if show is not False:
-            showStickers()
         if add is not None:
             addSticker(add)
-        if delete is not None:
+        elif delete is not None:
             deleteSticker(int(delete))
-        if find is not None:
+        elif find is not None:
             findSticker(find)
-        if remove:
+        elif remove:
             removeAll()
+        elif show is not False:
+            showStickers()
+        else:
+            showStickers()
     except AttributeError:
         print('There is no stickers')
     except FileNotFoundError:
