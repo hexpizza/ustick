@@ -9,7 +9,7 @@ def read(file):
 
 setup(
     name='ustick',
-    version='0.0.1',
+    version='0.1',
     url='https://github.com/hexpizza/ustick',
     author='Sergey Koryagin',
     author_email='skoryagin96@gmail.com',

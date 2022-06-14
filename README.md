@@ -8,12 +8,6 @@ Use pip to install the package:
 ```
 pip install ustick
 ```
-or clone the repository and run pip3:
-```
-git clone https://github.com/hexpizza/ustick.git
-cd ustick
-pip3 install ./
-```
 
 ## Usage
 To add sticker run:
