@@ -4,7 +4,11 @@ It stores stickers as data in ~/.notes file and show formatted data to you.
 Stickers are limited in size, if you get over it - you'll know.
 
 ## Installation
-Clone the repository and run pip3:
+Use pip to install the package:
+```
+pip install ustick
+```
+or clone the repository and run pip3:
 ```
 git clone https://github.com/hexpizza/ustick.git
 cd ustick
